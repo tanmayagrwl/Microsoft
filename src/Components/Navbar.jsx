@@ -5,7 +5,7 @@ import addacc from '../assets/add_account.png';
 function Navbar() {
   return (
     <>
-        <div id='navbar'  className='flex flex-row w-screen h-20vh items-center justify-between text-lg pt-2'>
+        <div id='navbar'  className='flex flex-row w-screen h-[7vh] items-center justify-between text-lg'>
             <div className='flex flex-row h-max items-center pl:10 sm:pl-10 lg:pl-10'>
                 <h1 className=' mr-4 font-bold text-white'></h1>
                 <img src={MSLogo} alt=""  className='  pr-4  h-5' />
