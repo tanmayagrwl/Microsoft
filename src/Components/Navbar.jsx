@@ -11,14 +11,14 @@ function Navbar() {
                 <img src={MSLogo} alt=""  className='  pr-4  h-5' />
                 
                 <h1 className=' mr-4 font-bold '>|</h1>
-                <h1 className=' mr-4 font-bold hidden sm:hidden md:flex '>Account</h1>
-                <h1 className='text-sm mr-4'> Help</h1>
+                <h1 className=' mr-4 font-bold hidden sm:hidden md:flex hover:underline cursor-pointer'>Account</h1>
+                <h1 className='text-sm mr-4 hover:underline cursor-pointer'> Help</h1>
             </div>
-            <div className='flex flex-row h-max items-center sm:pr-10 lg:pr-20'>
-                <img src={searchlogo} alt=""  className='h-3 pr-6 sm:pr-6 lg:pr-2' />
-                <h1 className='text-sm pr-5 hidden sm:hidden lg:flex'> Search</h1>
-                <img src={addacc} alt=""  className='h-3 pr-5' />
-                <h1 className='text-sm pr-10 hidden sm:hidden lg:flex'> Sign In</h1>
+            <div className='flex flex-row h-max items-center sm:pr-10 lg:pr-20 cursor-pointer'>
+                <img src={searchlogo} alt=""  className='h-3 pr-6 sm:pr-6 lg:pr-2 cursor-pointer' />
+                <h1 className='text-sm pr-5 hidden sm:hidden lg:flex hover:underline cursor-pointer'> Search</h1>
+                <img src={addacc} alt=""  className='h-3 cursor-pointer pr-5' />
+                <h1 className='text-sm pr-10 hidden sm:hidden cursor-pointer lg:flex hover:underline'> Sign In</h1>
 
             </div>
             
