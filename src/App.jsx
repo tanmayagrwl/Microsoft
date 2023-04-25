@@ -6,7 +6,7 @@ import sb1 from './assets/sb1.png'
 import sb2 from './assets/sb2.png'
 import sb3 from './assets/sb3.png'
 import sb4 from './assets/sb4.png'
-
+import SlideC from './Components/SlideC/SlideC'
 
 
 
@@ -45,8 +45,8 @@ function App() {
     <>
       <Navbar />
       <Landing />
-      
       <SlideB datasb = {datasb}  />
+      <SlideC />
 
 
     </>
