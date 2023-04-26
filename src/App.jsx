@@ -9,6 +9,7 @@ import sb4 from './assets/sb4.png'
 import SlideC from './Components/SlideC/SlideC'
 import SlideD from './Components/SlideD/SlideD'
 import SlideE from './Components/SlideE'
+import Footer from './Components/Footer'
 
 
 
@@ -50,6 +51,7 @@ function App() {
       <SlideC />
       <SlideD />
       <SlideE />
+      <Footer />
 
 
 
