@@ -4,8 +4,8 @@ import mslogo from '../assets/microsoft_logo.svg'
 function Login() {
   return (
     <>
-        <div className="bg-gradient-to-br from-red-50 to-blue-50 via-green-50 h-screen">
-            <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+        <div className="bg-gradient-to-br from-red-50 to-blue-50 via-green-50 h-screen flex flex-col items-center justify-center min-h-screen ">
+            
                 <div className="bg-white rounded-lg shadow-lg p-8 w-full md:w-2/3 lg:w-1/2 xl:w-1/3">
                     <div className="flex items-center justify-center mb-4">
                         <img className="w-16 h-16 mr-2" src={mslogo} alt="Logo" />
@@ -24,7 +24,6 @@ function Login() {
                         </form>
                 </div>
             </div>
-        </div>
     </>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import Landingimg from '../assets/landingss.png'
+import { Link } from 'react-router-dom'
 
 function Landing() {
   return (
@@ -10,8 +11,8 @@ function Landing() {
             <div className='flex justify-center text-md sm:text-md pl-8 pr-8 pt-8 text-center md:text-xl lg:text-2xl'>Your Microsoft account connects all your Microsoft apps and services.</div>
             <div className='flex justify-center text-md sm:text-md pl-8 pt-2 pr-8 text-center md:text-xl lg:text-2xl'>Sign in to manage your account.</div>
             <div className='pt-10'>
-                <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Sign In
-                </button>
+            <Link to="/login">
+                  <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Sign In</button> </Link>
             
             </div>
             

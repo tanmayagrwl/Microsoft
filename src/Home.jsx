@@ -1,4 +1,4 @@
-import './App.css'
+import React from 'react'
 import Navbar from './Components/Navbar'
 import Landing from './Components/Landing'
 import SlideB from './Components/SlideB/SlideB'
@@ -10,10 +10,8 @@ import SlideC from './Components/SlideC/SlideC'
 import SlideD from './Components/SlideD/SlideD'
 import SlideE from './Components/SlideE'
 import Footer from './Components/Footer'
-import Login from './Components/Login'
-import Home from './Home'
-import Error from './Error'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom' 
 
 
 
@@ -46,24 +44,22 @@ const datasb = [
 
 
 
-function App() {
+function Home() {
 
   return (
-    <>
+    <main>
     
-    <BrowserRouter>
-    <Routes>
-        <Route exact path="/" element= {<Home />}/>
-      </Routes>
-     
-      <Routes>
-        <Route exact path="/login" element= {<Login /> }/>
-      </Routes>
-    </BrowserRouter>
+      <Navbar />
+      <Landing />
+      {/* <SlideB datasb = {datasb}  /> */}
+      <SlideC />
+      <SlideD />
+      <SlideE />
+      <Footer />
+      
 
-
-    </>
+    </main>
   )
 }
 
-export default App
+export default Home
