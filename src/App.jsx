@@ -10,8 +10,7 @@ import SlideC from './Components/SlideC/SlideC'
 import SlideD from './Components/SlideD/SlideD'
 import SlideE from './Components/SlideE'
 import Footer from './Components/Footer'
-
-
+import Login from './Components/Login'
 
 const datasb = [
   {
@@ -52,6 +51,8 @@ function App() {
       <SlideD />
       <SlideE />
       <Footer />
+      <Login />
+     
 
 
 
