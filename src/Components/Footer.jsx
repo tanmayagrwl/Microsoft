@@ -4,7 +4,7 @@ import globe from '../assets/globe.png'
 function Footer() {
   return (
     <>
-        <div className='flex-col sm:flex-col text-sm lg:flex-row lg:flex justify-between'>
+        <div className='flex flex-col sm:flex-col text-sm lg:flex-row lg:flex justify-between'>
             <div className='flex flex-row justify-center sm:justify-center lg:justify-normal space-x-2 ml-10'>
                 <img src={globe} className='  h-4' alt="" />
                 <div className='hover:underline '>English (US)</div> 
