@@ -7,7 +7,7 @@ import sd3 from './sd3.png';
 function SlideD() {
   return (
     <>
-        <div className="flex flex-col items-center w-screen justify-center pb-10 pt-32 lg:pt-60">
+        <div className="flex flex-col items-center w-screen justify-center pb-10 pt-3 mt-28 lg:pt-60">
             <div className='text-3xl md:6xl lg:text-7xl font-serif'>Simplify your day</div>
             <div className='flex justify-center text-md sm:text-md  pr-4 pl-4 lg:pl-80 lg:pr-80 pt-12 text-center md:text-xl lg:text-2xl '>Access all your Microsoft apps, services, and games with one account.
             Whatever you’re doing, wherever you are, just go.</div> 

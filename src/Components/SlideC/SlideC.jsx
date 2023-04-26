@@ -26,7 +26,7 @@ function SlideC() {
     <div class='flex flex-col sm:flex-col md:flex-row justify-between pl-4 pr-4 lg:pl-28 lg:pr-48 pt-8 sm:pt-8 md:pt-24'>
             <img src={sc2} alt="" class='rounded-md shadow-lg over:shadow-2xl h-72 md:h-80 w-full sm:w-full md:w-96 mb-8 sm:mb-0 md:mb-0 md:ml-8 lg:ml-0' />
 
-        <div class='flex flex-col justify-center lg:pl-64 md:pl-36 pr-4 lg:pr-0 pl-0 '>
+        <div class='flex flex-col justify-center lg:pl-64 md:pl-36 pr-4 lg:pr-0 pl-0  '>
             <div class='font-semibold text-2xl md:text-5xl lg:text-6xl mb-8 '>Break free from passwords</div>
             <div class='text-xl'>Make your account even more secure with optional passwordless sign-in.</div>
         </div>
