@@ -8,7 +8,7 @@ import sb3 from './assets/sb3.png'
 import sb4 from './assets/sb4.png'
 import SlideC from './Components/SlideC/SlideC'
 import SlideD from './Components/SlideD/SlideD'
-
+import SlideE from './Components/SlideE'
 
 
 
@@ -49,6 +49,7 @@ function App() {
       <SlideB datasb = {datasb}  />
       <SlideC />
       <SlideD />
+      <SlideE />
 
 
 
