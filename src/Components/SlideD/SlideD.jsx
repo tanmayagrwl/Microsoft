@@ -23,7 +23,7 @@ function SlideD() {
             </div>
         </div>
 
-        <div className='flex flex-col-reverse sm:flex-col md:flex-row justify-between pl-4 pr-4 lg:pl-28 lg:pr-48 pt-8 sm:pt-8 md:pt-24'>
+        <div className='flex flex-col sm:flex-col-reverse md:flex-row justify-between pl-4 pr-4 lg:pl-28 lg:pr-48 pt-8 sm:pt-8 md:pt-24'>
             <div className='flex flex-col justify-center lg:pr-64 md:pr-36 pl-4 lg:pl-0 pr-0 '>
                 <div className='font-semibold text-2xl md:text-5xl lg:text-6xl mb-8 '>Pick up where you left off</div>
                 <div className='text-xl'>Your data is automatically synced to the cloud, so contacts, calendar, and files are always backed up, no matter what device you’re on.</div>

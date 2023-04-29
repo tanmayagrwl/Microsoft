@@ -51,7 +51,7 @@ function Home() {
     
       <Navbar />
       <Landing />
-      {/* <SlideB datasb = {datasb}  /> */}
+      <SlideB datasb = {datasb}  />
       <SlideC />
       <SlideD />
       <SlideE />
