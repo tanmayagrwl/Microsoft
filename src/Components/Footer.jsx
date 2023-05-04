@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
         <div className='flex flex-col sm:flex-col lg:flex-row lg:flex text-xs justify-between h-max sm:h-max lg:h-12 items-center bg-[#E2E2E2]'>
-            <div className='flex flex-row justify-center sm:justify-center lg:justify-normal space-x-2 ml-10'>
+            <div className='flex flex-row justify-center sm:justify-center lg:justify-normal space-x-2 ml-0 sm:ml-0 md:ml-10'>
                 <img src={globe} className='  h-4' alt="" />
                 <div className='hover:underline '>English (US)</div> 
             </div>
