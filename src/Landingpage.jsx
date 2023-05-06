@@ -38,7 +38,7 @@ const datasb = [
 
 function Landingpage() {
   return (
-    <div className='overflow-x-hidden'>
+    <div className='overflow-x-hidden scroll-smooth '>
         <Navbar />
         <Landing />
         <SlideB datasb = {datasb}  />
