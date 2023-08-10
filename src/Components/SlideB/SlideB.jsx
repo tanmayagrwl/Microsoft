@@ -1,4 +1,3 @@
-import React from "react"
 import Card from "./Card"
 function SlideB(props) {
   return (
@@ -11,11 +10,12 @@ function SlideB(props) {
           You get more for free when you sign in with your Microsoft account.
         </div>
       </div>
-
-      <div className="grid md:grid-cols-2 md:grid-rows-2 sm:grid-rows-4 sm:grid-col-1 justify-center pr-0 pl-0 lg:pr-72 lg:pl-80  ">
-        {props.datasb.map((el) => {
-          return <Card img={el.img} name={el.name} desc={el.desc} />
-        })}
+      <div className="flex justify-center items-center">
+        <div className="grid md:grid-cols-2 md:grid-rows-2 sm:grid-rows-4 sm:grid-col-1 justify-center pr-0 pl-0 lg:pr-72 lg:pl-80  ">
+          {props.datasb.map((el) => {
+            return <Card img={el.img} name={el.name} desc={el.desc} />
+          })}
+        </div>
       </div>
     </>
   )
